@@ -1,32 +1,68 @@
+// Signup.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
-    <div className="container mx-auto  p-16">
-      <h1 className="text-2xl font-bold mb-4">Signup</h1>
-      <form>
-        <div className="mb-4">
-          <label className="block text-gray-700">Name</label>
-          <input type="text" className="border-gray-300 border p-2 w-full" />
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-md w-full space-y-8">
+        <div>
+          <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign up for an account</h2>
+          <p className="mt-2 text-center text-sm text-gray-600">
+            Already have an account?{' '}
+            <Link to="/login" className="font-medium text-indigo-600 hover:text-indigo-500">
+              Log in
+            </Link>
+          </p>
         </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Email</label>
-          <input type="email" className="border-gray-300 border p-2 w-full" />
-        </div>
-        <div className="mb-4">
-        <div className="mb-4">
-          <label className="block text-gray-700">Mobile Number</label>
-          <input type="text" className="border-gray-300 border p-2 w-full" />
-        </div>
-          <label className="block text-gray-700">Create Password</label>
-          <input type="password" className="border-gray-300 border p-2 w-full" />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Confirm Password</label>
-          <input type="password" className="border-gray-300 border p-2 w-full" />
-        </div>
-        <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Signup</button>
-      </form>
+        <form className="mt-8 space-y-6">
+          <input type="hidden" name="remember" defaultValue="true" />
+          <div className="rounded-md shadow-sm -space-y-px">
+            <div>
+              <input
+                id="email-address"
+                name="email"
+                type="email"
+                autoComplete="email"
+                required
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Email address"
+              />
+            </div>
+            <div>
+              <input
+                id="password"
+                name="password"
+                type="password"
+                autoComplete="new-password"
+                required
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Password"
+              />
+            </div>
+            <div>
+              <input
+                id="confirm-password"
+                name="confirm-password"
+                type="password"
+                autoComplete="new-password"
+                required
+                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
+                placeholder="Confirm Password"
+              />
+            </div>
+          </div>
+
+          <div>
+            <button
+              type="submit"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            >
+              Sign up
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 };
