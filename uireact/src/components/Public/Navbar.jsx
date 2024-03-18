@@ -16,7 +16,7 @@ const Navbar = ({ role }) => {
               <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
               <Link to="/contact-us" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</Link>
               {/* For Admin link */}
-              <Link to="/admin" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">For Admin</Link>
+             
               {/* Spacer */}
               <div className="flex items-center ml-4">
                 <span className="text-gray-300 mr-2">|</span>

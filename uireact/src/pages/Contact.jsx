@@ -13,8 +13,7 @@ const ContactPage = () => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
-      <Navbar />
+     
       {/* Contact form section */}
       <section className="py-20 bg-gray-100 flex-grow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -67,7 +66,7 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
-      <Footer />
+     
     </div>
   );
 };

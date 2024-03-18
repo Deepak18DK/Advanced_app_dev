@@ -124,6 +124,44 @@ const HomePage = () => {
         </div>
       </section>
 
+      <section className="bg-gray-100 py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold text-center mb-10">Contact Us</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Contact form */}
+          <div className="bg-white rounded-lg shadow-md p-8">
+            <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
+            <form>
+              <div className="mb-4">
+                <label htmlFor="name" className="block text-gray-700 font-medium">Name</label>
+                <input type="text" id="name" name="name" className="form-input mt-1 block w-full border-gray-300 rounded-md" />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="email" className="block text-gray-700 font-medium">Email</label>
+                <input type="email" id="email" name="email" className="form-input mt-1 block w-full border-gray-300 rounded-md" />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="message" className="block text-gray-700 font-medium">Message</label>
+                <textarea id="message" name="message" rows="4" className="form-textarea mt-1 block w-full border-gray-300 rounded-md"></textarea>
+              </div>
+              <div className="flex justify-end">
+                <button type="submit" className="px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition duration-300">Submit</button>
+              </div>
+            </form>
+          </div>
+          {/* Contact information */}
+          <div className="bg-white rounded-lg shadow-md p-8">
+            <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
+            <div className="text-gray-700">
+              <p className="mb-2"><span className="font-medium">Email:</span> info@corpify.com</p>
+              <p className="mb-2"><span className="font-medium">Phone:</span> +1 (123) 456-7890</p>
+              <p className="mb-2"><span className="font-medium">Address:</span> 123 Main Street, City, Country</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
       {/* Testimonials section */}
       <section className="bg-gray-200 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
