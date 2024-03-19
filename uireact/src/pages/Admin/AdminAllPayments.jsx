@@ -1,62 +1,59 @@
-import React from 'react'
+import React from 'react';
 
 export const AdminAllPayments = () => {
   return (
-    <div>
-      
-    
-    <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-        <table className="w-full text-sm text-left rtl:text-right text-gray-900 dark:text-black-400 ">
-            <thead className="text-sm text-gray-700 uppercase bg-blue-300 dark:bg-blue-600 dark:text-white">
-                <tr>
-                    <th scope="col" className="px-6 py-3">
-                        Payment Id
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                        Organizer Id
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                        Organizer name
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                        Status
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                        Amount Paid
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                        Payment Date
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                        Mode of Payment
-                    </th>
-                    
-                </tr>
-            </thead>
-            <tbody>
-                <tr className="odd:bg-white even:bg-gray-50 border-b dark:border-gray-700">
-                    <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
-                       1
-                    </th>
-                    <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
-                       2
-                    </th>
-                    <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
-                       Janani
-                    </th>
-                    <td scope="row" className="px-6 py-4">
-                       Paid
-                    </td>
-                    <td scope="row" className="px-6 py-4 ">
-                       $2999
-                    </td>
-                    <td className="px-6 py-4">
-                        10/02/2024
-                    </td>
-                    <td className="px-6 py-4">
-                        Credit
-                    </td>
-                </tr>
+    <div className="mt-4">
+      <div className="overflow-x-auto bg-white shadow-md sm:rounded-lg">
+        <table className="w-full text-sm text-left rtl:text-right text-gray-900 dark:text-black-400 divide-y divide-gray-200">
+          <thead className="text-sm text-gray-700 uppercase bg-blue-900 dark:bg-blue-900 dark:text-white">
+            <tr>
+              <th scope="col" className="px-6 py-3">
+                Payment ID
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Organizer ID
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Organizer Name
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Status
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Amount Paid
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Payment Date
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Mode of Payment
+              </th>
+            </tr>
+          </thead>
+          <tbody className="bg-white divide-y divide-gray-200">
+            <tr className="odd:bg-gray-50 even:bg-gray-100">
+              <td className="px-6 py-4 whitespace-nowrap">
+                1
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                2
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Janani
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap  font-medium">
+                Paid
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                $2999
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                10/02/2024
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Credit
+              </td>
+            </tr>
                 <tr className="odd:bg-white even:bg-gray-50 border-b dark:border-gray-700">
                     <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
                        2

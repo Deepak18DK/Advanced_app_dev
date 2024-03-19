@@ -29,7 +29,7 @@ const Terms = () => {
             </p>
             <ul className="list-disc ml-8">
               <li className="mb-2">By email: info@corpify.com</li>
-              <li className="mb-2">By visiting this page on our website: <a href="www.corpify.com/contact-us" className="text-blue-500">www.corpify.com/contact-us</a></li>
+              <li className="mb-2">By visiting this page on our website: <a href="/contact-us" className="text-blue-500">/contact-us</a></li>
             </ul>
           </div>
         </div>

@@ -1,6 +1,7 @@
 // Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CorpLogo from '../../assets/images/LogoCorp.png'
 
 const Navbar = ({ role }) => {
   return (
@@ -8,7 +9,8 @@ const Navbar = ({ role }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <Link to="/" className="text-white font-bold text-xl">Corpify</Link>
+            <Link to="/" >
+            <img src={CorpLogo} alt="Logo" style={{width:"100px"}} /></Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center md:ml-6">

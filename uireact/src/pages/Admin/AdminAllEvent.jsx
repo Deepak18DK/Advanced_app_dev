@@ -1,61 +1,60 @@
-import React from 'react'
+import React from 'react';
 
 export const AdminAllEvent = () => {
   return (
-    <div className='mt-4'>
-      
-    <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-sm text-left rtl:text-right text-black">
-            <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
-                <tr>
-                    <th scope="col" class="px-6 py-3">
-                        Event ID
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        Event Type
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        Description
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        Participant Count
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        Event Mode
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        Charges
-                    </th>
-                    <th scope="col" class="px-6 py-3">
-                        Actions
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="bg-white-500 border-b border-blue-400">
-                    <th scope="row" class="px-6 py-4 font-medium text-black">
-                        1
-                    </th>
-                    <th scope="row" class="px-6 py-4 font-medium text-black">
-                        Conference
-                    </th>
-                    <td class="px-6 py-4">
-                       An insightful Conference on AI and future technologies
-                    </td>
-                    <td class="px-6 py-4">
-                        100
-                    </td>
-                    <td class="px-6 py-4">
-                        Offline
-                    </td>
-                    <td class="px-6 py-4">
-                        $1999
-                    </td>
-                    <td className="px-6 py-4 flex gap-2">
-                        <button className="font-medium text-white bg-green-500 px-3 py-1 rounded-md">Edit</button>
-                        <button className="font-medium text-white bg-red-600 px-3 py-1 rounded-md">Delete</button>
-                    </td>
-                </tr>
+    <div className="mt-5">
+      <div className="overflow-x-auto shadow-md sm:rounded-lg">
+        <table className="w-full text-sm text-left rtl:text-right text-black border border-gray-200">
+          <thead className="text-xs text-white uppercase bg-blue-900 dark:text-white">
+            <tr>
+              <th scope="col" className="px-6 py-3">
+                Event ID
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Event Type
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Description
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Participant Count
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Event Mode
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Charges
+              </th>
+              <th scope="col" className="px-6 py-3">
+                Actions
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="bg-white-500 border-b border-blue-400">
+              <th scope="row" className="px-6 py-4 font-medium text-black">
+                1
+              </th>
+              <td className="px-6 py-4 font-medium text-black">
+                Conference
+              </td>
+              <td className="px-6 py-4">
+                An insightful Conference on AI and future technologies
+              </td>
+              <td className="px-6 py-4">
+                100
+              </td>
+              <td className="px-6 py-4">
+                Offline
+              </td>
+              <td className="px-6 py-4">
+                $1999
+              </td>
+              <td className="px-6 py-4 flex gap-2">
+                <button className="font-medium text-white bg-green-500 px-3 py-1 rounded-md">Edit</button>
+                <button className="font-medium text-white bg-red-600 px-3 py-1 rounded-md">Delete</button>
+              </td>
+            </tr>
                 <tr class="bg-white-500 border-b border-blue-400">
                     <th scope="row" class="px-6 py-4 font-medium text-black">
                         2

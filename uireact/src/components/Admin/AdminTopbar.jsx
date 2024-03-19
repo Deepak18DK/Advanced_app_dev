@@ -3,6 +3,7 @@ import { Cog } from 'lucide-react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import '../../assets/css/core.css'
 import { UserIcon } from 'lucide-react'
+import corpify from '../../assets/images/LogoCorp.png'
 
 const AdminTopbar = () => {
 
@@ -22,15 +23,15 @@ const AdminTopbar = () => {
     };
   return (
     <div>
-      <div className=' sticky top-0 h-[9vh] w-screen flex flex-row justify-between items-center shadow-sm shadow-blue-300'>
+      <div className=' sticky top-0 h-[9vh] w-screen flex flex-row justify-between items-center shadow-sm shadow-blue-900' style={{backgroundColor:"#1F2937"}}>
       <div className='w-[90%] h-full flex flex-row justify-between items-center'>
      
-      <div className='w-[5%] flex justify-center items-center'>
-      <div className='cursor-pointer text-xl font-bold whitespace-nowrap'>CORPIFY ADMIN</div>
+      <div className='w-[15%] flex justify-center items-center'>
+      <div className='cursor-pointer text-xl font-bold whitespace-nowrap'><img src={corpify} style={{height:"9vh"}}/></div>
                 </div>
         <div className='w-[3%] flex justify-center items-center'>
           {Toplinks.map((link,index)=> (
-             <NavLink key={index} to={link.path} className={'cursor-pointer text-md font-400 mr-8'}>
+             <NavLink key={index} to={link.path} className={'cursor-pointer text-md text-white font-400 mr-8'}>
               {link.name}
             </NavLink>
           ))     

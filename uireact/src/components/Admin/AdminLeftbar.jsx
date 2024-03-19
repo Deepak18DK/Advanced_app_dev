@@ -8,27 +8,27 @@ const AdminLeftbar = () => {
         {
           name:'Dashboard',
           path:'/admin/dashboard',
-          icon: <Home size={20} color="#800080" /> // Using Lucide React icon for Dashboard
+          icon: <Home size={20} color="#00008B" /> // Using Lucide React icon for Dashboard
         },
         {
           name:'Add Events',
           path:'/admin/addEvent',
-          icon: <Calendar size={20} color="#800080" /> // Using Lucide React icon for Events
+          icon: <Calendar size={20} color="#00008B" /> // Using Lucide React icon for Events
         },
         {
             name: 'All Events',
             path: '/admin/allEvents',
-            icon: < BookCheck size={20} color='#800080'/>
+            icon: < BookCheck size={20} color='#00008B'/>
+        },
+        {
+          name:'All Bookings',
+          path:'/admin/bookings',
+          icon: <Book size={20} color="#00008B" /> // Using Lucide React icon for My Bookings
         },
         {
           name:'All Payments',
-          path:'/admin/bookings',
-          icon: <Book size={20} color="#800080" /> // Using Lucide React icon for My Bookings
-        },
-        {
-          name:'All Users',
           path:'/admin/payments',
-          icon: <CreditCard size={20} color="#800080" /> // Using Lucide React icon for My Payments
+          icon: <CreditCard size={20} color="#00008B" /> // Using Lucide React icon for My Payments
         },
     ];
 
@@ -47,7 +47,9 @@ const AdminLeftbar = () => {
                         
                     </a>
                 </h1>
-                <div className='h-[85vh] flex flex-col gap-1'>
+                <div className='h-[83vh] flex flex-col gap-1'>
+                
+
                     {links.map((link, index) => (
                         <NavLink key={index} to={link.path} className='p-4 border-b border-gray-200 hover:bg-gray-100 flex items-center justify-start font-semibold'>
                             {link.icon} {/* Displaying Lucide React icon */}

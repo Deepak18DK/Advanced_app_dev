@@ -1,161 +1,111 @@
 import React from 'react'
 
 export const AdminAllUsers = () => {
-  return (
-    <div className='mt-4'>
-      
-<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-    <table class="w-full text-sm text-left rtl:text-right text-black">
-        <thead class="text-xs text-white uppercase bg-blue-600 dark:text-white">
-            <tr>
-                <th scope="col" class="px-6 py-3">
-                    Event ID
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Event Type
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Description
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Participant Count
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Event Mode
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Charges
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Actions
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-white-500 border-b border-blue-400">
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    1
-                </th>
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    Conference
-                </th>
-                <td class="px-6 py-4">
-                   An insightful Conference on AI and future technologies
-                </td>
-                <td class="px-6 py-4">
-                    100
-                </td>
-                <td class="px-6 py-4">
-                    Offline
-                </td>
-                <td class="px-6 py-4">
-                    $1999
-                </td>
-                <td className="px-6 py-4 flex gap-2">
-                    <button className="font-medium text-white bg-green-500 px-3 py-1 rounded-md">Edit</button>
-                    <button className="font-medium text-white bg-red-600 px-3 py-1 rounded-md">Delete</button>
-                </td>
-            </tr>
-            <tr class="bg-white-500 border-b border-blue-400">
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    2
-                </th>
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    Product Launch
-                </th>
-                <td class="px-6 py-4">
-                    A thrilling event to launch Zoho's new product
-                </td>
-                <td class="px-6 py-4">
-                    500
-                </td>
-                <td class="px-6 py-4">
-                    Offline
-                </td>
-                <td class="px-6 py-4">
-                    $599
-                </td>
-                <td className="px-6 py-4 flex gap-2">
-                    <button className="font-medium text-white bg-green-500 px-3 py-1 rounded-md">Edit</button>
-                    <button className="font-medium text-white bg-red-600 px-3 py-1 rounded-md">Delete</button>
-                </td>
-            </tr>
-            <tr class="bg-white-500 border-b border-blue-400">
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    3
-                </th>
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    Shareholders Meeting
-                </th>
-                <td class="px-6 py-4">
-                    An inspiring meeting to discuss the future of Meta
-                </td>
-                <td class="px-6 py-4">
-                    50
-                </td>
-                <td class="px-6 py-4">
-                    Hybrid
-                </td>
-                <td class="px-6 py-4">
-                    $199
-                </td>
-                <td className="px-6 py-4 flex gap-2">
-                    <button className="font-medium text-white bg-green-500 px-3 py-1 rounded-md">Edit</button>
-                    <button className="font-medium text-white bg-red-600 px-3 py-1 rounded-md">Delete</button>
-                </td>
-            </tr>
-            <tr class="bg-white-500 border-b border-blue-400">
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    4
-                </th>
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                    Company Milestones
-                </th>
-                <td class="px-6 py-4">
-                    An exciting event to celebrate company's Milestones
-                </td>
-                <td class="px-6 py-4">
-                    700
-                </td>
-                <td class="px-6 py-4">
-                   Hybrid
-                </td>
-                <td class="px-6 py-4">
-                   $399
-                </td>
-                <td className="px-6 py-4 flex gap-2">
-                    <button className="font-medium text-white bg-green-500 px-3 py-1 rounded-md">Edit</button>
-                    <button className="font-medium text-white bg-red-600 px-3 py-1 rounded-md">Delete</button>
-                </td>
-            </tr>
-            <tr class="bg-white-500 border-b border-blue-400">
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                   5
-                </th>
-                <th scope="row" class="px-6 py-4 font-medium text-black">
-                   Trade shows
-                </th>
-                <td class="px-6 py-4">
-                    An event to connect companies with potential customers
-                </td>
-                <td class="px-6 py-4">
-                    1000
-                </td>
-                <td class="px-6 py-4">
-                    Offline
-                </td>
-                <td class="px-6 py-4">
-                    $999
-                </td>
-                <td className="px-6 py-4 flex gap-2">
-                    <button className="font-medium text-white bg-green-500 px-3 py-1 rounded-md">Edit</button>
-                    <button className="font-medium text-white bg-red-600 px-3 py-1 rounded-md">Delete</button>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+ 
 
-    </div>
-  )
+
+return (
+  <div>
+     <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+      <table className="w-full text-sm text-left rtl:text-right text-gray-900 dark:text-black-400 ">
+          <thead className="text-sm text-gray-700 uppercase bg-blue-300 dark:bg-blue-600 dark:text-white">
+              <tr>
+                  <th scope="col" className="px-6 py-3">
+                      User ID
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                      User Name
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                      Email
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                      Phone Number
+                  </th>
+                  <th scope="col" className="px-6 py-3">
+                      Password
+                  </th>
+                  
+                  
+              </tr>
+          </thead>
+          <tbody>
+              <tr className="odd:bg-white even:bg-gray-50 border-b dark:border-gray-700">
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     1
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     Janani
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     janani@gmail.com
+                  </th>
+                  <td scope="row" className="px-6 py-4">
+                     8270599889
+                  </td>
+                  <td scope="row" className="px-6 py-4 ">
+                     ****
+                  </td>
+                  
+              </tr>
+              <tr className="odd:bg-white even:bg-gray-50 border-b dark:border-gray-700">
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     2
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     Deeksha
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     deeksha@gmail.com
+                  </th>
+                  <td scope="row" className="px-6 py-4">
+                     9270599889
+                  </td>
+                  <td scope="row" className="px-6 py-4 ">
+                     ****
+                  </td>                    
+              </tr>
+              <tr className="odd:bg-white even:bg-gray-50 border-b dark:border-gray-700">
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     3
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     Deepak
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     deepak@gmail.com
+                  </th>
+                  <td scope="row" className="px-6 py-4">
+                     7270599889
+                  </td>
+                  <td scope="row" className="px-6 py-4 ">
+                     ****
+                  </td>
+              </tr>
+              <tr className="odd:bg-white even:bg-gray-50 border-b dark:border-gray-700">
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     4
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     Pavi
+                  </th>
+                  <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
+                     pavi@gmail.com
+                  </th>
+                  <td scope="row" className="px-6 py-4">
+                     6270599889
+                  </td>
+                  <td scope="row" className="px-6 py-4 ">
+                     ****
+                  </td>
+              </tr>
+              
+              
+              
+              </tbody>
+      </table>
+  </div>
+  
+  </div>
+)
 }

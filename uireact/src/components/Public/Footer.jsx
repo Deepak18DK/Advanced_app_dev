@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Footer section 1 */}
           <div className="w-full md:w-1/4 mb-8 md:mb-0 text-center">
             <h3 className="text-xl font-semibold mb-4">About Us</h3>
-            <p className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+            <p className="text-gray-400">"Corpify is dedicated to providing innovative solutions tailored to your business needs, ensuring streamlined operations and sustained growth."</p>
           </div>
           {/* Footer section 2 */}
           <div className="w-full md:w-1/4 mb-8 md:mb-0 text-center">
@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-8 md:mb-0 text-center">
             <h3 className="text-xl font-semibold mb-4">Legal</h3>
             <ul>
-              <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Terms and Conditions</a></li>
+              <li><a href="/terms" className="text-gray-400 hover:text-white transition duration-300">Terms and Conditions</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
             </ul>
           </div>
@@ -32,8 +32,8 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-8 md:mb-0 text-center">
             <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
             <p className="text-gray-400">123 Main Street</p>
-            <p className="text-gray-400">City, Country</p>
-            <p className="text-gray-400">info@example.com</p>
+            <p className="text-gray-400">Coimbatore, India</p>
+            <p className="text-gray-400">info@corpify.com</p>
             <p className="text-gray-400">+123 456 7890</p>
           </div>
         </div>
