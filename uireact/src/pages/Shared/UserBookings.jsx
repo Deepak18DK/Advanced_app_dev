@@ -6,7 +6,7 @@ export const UserBookings = () => {
 
         <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table className="w-full text-sm text-left rtl:text-right text-gray-900 dark:text-black-400 ">
-                <thead className="text-sm text-gray-700 uppercase bg-gray-200 dark:bg-blue-600 dark:text-white">
+                <thead className="text-sm text-gray-700 uppercase bg-gray-200  dark:text-white" style={{backgroundColor:"#1F2937"}}>
                     <tr>
                         <th scope="col" className="px-6 py-3">
                             Booking Id

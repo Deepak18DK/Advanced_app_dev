@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CorpLogo from '../../assets/images/LogoCorp.png'
+import '../../assets/css/core.css'
 
 const Navbar = ({ role }) => {
   return (
@@ -13,7 +14,7 @@ const Navbar = ({ role }) => {
             <img src={CorpLogo} alt="Logo" style={{width:"100px"}} /></Link>
           </div>
           <div className="hidden md:block">
-            <div className="ml-4 flex items-center md:ml-6">
+            <div className="ml-4 flex items-center md:ml-6 nav-link">
               {/* Common links for all users */}
               <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
               <Link to="/contact-us" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</Link>

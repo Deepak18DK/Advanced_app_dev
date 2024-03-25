@@ -5,7 +5,7 @@ export const AdminAllPayments = () => {
     <div className="mt-4">
       <div className="overflow-x-auto bg-white shadow-md sm:rounded-lg">
         <table className="w-full text-sm text-left rtl:text-right text-gray-900 dark:text-black-400 divide-y divide-gray-200">
-          <thead className="text-sm text-gray-700 uppercase bg-blue-900 dark:bg-blue-900 dark:text-white">
+          <thead className="text-sm text-gray-700 uppercase dark:bg-blue-900 dark:text-white" style={{backgroundColor:"#1F2937"}}>
             <tr>
               <th scope="col" className="px-6 py-3">
                 Payment ID

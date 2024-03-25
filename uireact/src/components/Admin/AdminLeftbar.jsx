@@ -21,6 +21,11 @@ const AdminLeftbar = () => {
             icon: < BookCheck size={20} color='#00008B'/>
         },
         {
+            name:'All Users',
+            path:'/admin/users',
+            icon: <Book size={20} color="#00008B" /> // Using Lucide React icon for My Bookings
+          },
+        {
           name:'All Bookings',
           path:'/admin/bookings',
           icon: <Book size={20} color="#00008B" /> // Using Lucide React icon for My Bookings

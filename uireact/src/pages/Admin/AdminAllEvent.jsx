@@ -5,7 +5,7 @@ export const AdminAllEvent = () => {
     <div className="mt-5">
       <div className="overflow-x-auto shadow-md sm:rounded-lg">
         <table className="w-full text-sm text-left rtl:text-right text-black border border-gray-200">
-          <thead className="text-xs text-white uppercase bg-blue-900 dark:text-white">
+          <thead className="text-xs text-white uppercase  dark:text-white" style={{backgroundColor:"#1F2937"}}>
             <tr>
               <th scope="col" className="px-6 py-3">
                 Event ID
