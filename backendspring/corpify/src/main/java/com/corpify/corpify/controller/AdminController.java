@@ -20,6 +20,7 @@ public class AdminController {
         @PostMapping
         public ResponseEntity<?> createAdmin() {
             try {
+         
                 return new ResponseEntity<>(authService.createAdmin(), HttpStatus.CREATED);
             } catch (Exception e) {
                 return ResponseEntity.notFound().build();
